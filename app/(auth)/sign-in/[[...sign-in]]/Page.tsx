@@ -1,7 +1,9 @@
-import { SignIn } from "@clerk/nextjs";
 import React from "react";
+import { SignIn } from "@clerk/nextjs";
 
 const SignInPage = () => {
+  console.log("signInPage visited");
+
   return <SignIn />;
 };
 
